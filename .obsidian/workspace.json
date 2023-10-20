@@ -1,0 +1,294 @@
+{
+  "main": {
+    "id": "73053db65dc5e3d0",
+    "type": "split",
+    "children": [
+      {
+        "id": "b9cd79c7da69e838",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c25a6264d9301ade",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Worlds/Cointeau/Cointeau.md",
+                "mode": "preview",
+                "source": true
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "6c17f514170f5230",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Backend/Templates/Settlement.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "bdc5860a469df9d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Backend/Templates/Region.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "91bec09768882275",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maps/Cointeau Map.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "b5295409b58d30e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Worlds/Cointeau/The Land of Jim/Jim Town.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "32818a2f21219085",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Worlds/Cointeau/Cointeau.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "dc4e7734af04a34a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Backend/Classes/Location.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "120eb804f6011e7f",
+            "type": "leaf",
+            "state": {
+              "type": "FileClassView__Location",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 7
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "16247e01989644a5",
+    "type": "split",
+    "children": [
+      {
+        "id": "22b64790b8845c00",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4baf9869cff1aab6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6276efc7ef13130e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "9ef4d4d57e3b9021",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "[\"Modified\"]",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 285.5
+  },
+  "right": {
+    "id": "b260ae45e20a29f3",
+    "type": "split",
+    "children": [
+      {
+        "id": "c22533b728f4fd8f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f52bbd72ccab67c8",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "Backend/Classes/Location.md"
+              }
+            }
+          },
+          {
+            "id": "0e527d6447f7a1df",
+            "type": "leaf",
+            "state": {
+              "type": "DICE_ROLLER_VIEW",
+              "state": {}
+            }
+          },
+          {
+            "id": "91bb34257a4c4cd9",
+            "type": "leaf",
+            "state": {
+              "type": "initiative-tracker-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "92f951aba51777e6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Backend/Classes/Location.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "73018d8c582dbb93",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Backend/Classes/Location.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c24bc8e02cbab6f5",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 331.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "graph:Open graph view": true,
+      "canvas:Create new canvas": true,
+      "command-palette:Open command palette": true,
+      "switcher:Open quick switcher": true,
+      "workspaces:Manage workspace layouts": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "cmdr:QuickAdd": false,
+      "obsidian-5e-statblocks:Open Creature Pane": false,
+      "omnisearch:Omnisearch": false,
+      "homepage:Open homepage": false,
+      "initiative-tracker:Initiative Tracker Encounter Builder": false,
+      "obsidian-map-view:Open map view": false,
+      "obsidian-leaflet-plugin:Open Leaflet Map": false
+    }
+  },
+  "active": "120eb804f6011e7f",
+  "lastOpenFiles": [
+    "Maps/Cointeau Map.md",
+    "Backend/Classes/Settlement.md",
+    "Worlds/Cointeau/Cointeau.md",
+    "Maps/Cointeau.jpeg",
+    "Backend/Templates/Settlement.md",
+    "Backend/Classes/Location.md",
+    "Worlds/Cointeau/The Land of Jim/Jim Town.md",
+    "Worlds/Cointeau/The Land of John/John Town.md",
+    "Worlds/Cointeau/The Land of Jim/The Land of Jim.md",
+    "Worlds/Cointeau/The Land of John/The Land of John.md",
+    "Backend/Templates/Quest.md",
+    "Characters/Johnny.md",
+    "Backend/Templates/Region.md",
+    "Factions/The Cult of Johnny.md",
+    "Quests/Kill Johnny.md",
+    "Characters/Characters.md",
+    "Backend/Templates/Character.md",
+    "Characters/Jimmy.md",
+    "Factions/The Cult of Jimmy.md",
+    "Backend/Templates/Faction.md",
+    "Races/Human.md",
+    "Sessions/New Session.md",
+    "New Session.md",
+    "Backend/Templates/Session.md",
+    "Backend/Classes/World.md",
+    "Backend/Templates/World.md",
+    "Worlds/New World.md",
+    "Quests",
+    "Sessions",
+    "Backend/Embeds",
+    "Races",
+    "Worlds/Cointeau/The Land of John",
+    "Locations",
+    "Regions",
+    "Worlds/Cointeau/The Land of Jim/context.mdb",
+    "Worlds/Cointeau/context.mdb",
+    "Worlds/Cointeau/The Land of Jim"
+  ]
+}

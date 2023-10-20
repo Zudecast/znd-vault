@@ -1,0 +1,5 @@
+World:: {"type":"File","options":{"dvQueryString":"dv.pages()\n.where(p => !p.file.path.includes(\"Backend\"))\n.where(p => p.Type == \"World\")\n.map(p => p.file.link)","customSorting":"a.basename > b.basename ? 1 : -1"},"command":{"id":"insert__presetField__World","icon":"Globe","label":"Insert World field"}}
+
+Players:: {"type":"File","options":{"customSorting":"a.basename > b.basename ? 1 : -1","dvQueryString":"dv.pages()\n.where(p => !p.file.path.includes(\"Backend\"))\n.where(p => p.Type == \"Player\")\n.map(p => p.file.link)"},"command":{"id":"insert__presetField__Players","icon":"users","label":"Insert Players field"}}
+
+Date:: {"type":"Date","options":{"dateFormat":"YYYY-MM-DD","defaultInsertAsLink":"false"},"command":{"id":"insert__presetField__Date","icon":"calendar","label":"Insert Date field"}}

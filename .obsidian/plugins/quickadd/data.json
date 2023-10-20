@@ -1,0 +1,749 @@
+{
+  "choices": [
+    {
+      "id": "a4b3165d-32eb-4208-b440-55e5f4431538",
+      "name": "🗒️ New Session",
+      "type": "Macro",
+      "command": true,
+      "macroId": "58f75abf-a8eb-4ec4-91f2-3f92b0301e06"
+    },
+    {
+      "id": "fd031bbb-c01c-46ab-8601-8343e2d94859",
+      "name": "🌎 World Menu",
+      "type": "Multi",
+      "command": true,
+      "choices": [
+        {
+          "id": "0b008eb0-5afd-4150-b247-bf23054c5699",
+          "name": "🌎 New World",
+          "type": "Macro",
+          "command": true,
+          "macroId": "cfa0fdd2-8a12-4351-8fa0-f4e42da0960c"
+        },
+        {
+          "id": "ad5289c1-6179-4b3e-b1a3-05ccfabbbb2f",
+          "name": "🏔️ New Region",
+          "type": "Macro",
+          "command": true,
+          "macroId": "6e9322fb-1ac5-4213-a18b-b98f7cf38b17"
+        },
+        {
+          "id": "133980f5-7789-4282-87ad-915fa15ea9d0",
+          "name": "🏛️ New Settlement",
+          "type": "Macro",
+          "command": true,
+          "macroId": "10f46ce6-f36a-4b49-8b44-cd84adb2a8de"
+        },
+        {
+          "id": "6967445c-536f-4d27-b38a-dec7fb714e66",
+          "name": "✴️ New Quest",
+          "type": "Macro",
+          "command": true,
+          "macroId": "a1401030-3db7-4164-8d4b-2987636c3c77"
+        }
+      ],
+      "collapsed": false
+    },
+    {
+      "id": "0fff17f7-cf3c-4264-bb41-1734f57f2ef5",
+      "name": "🧔 People Menu",
+      "type": "Multi",
+      "command": true,
+      "choices": [
+        {
+          "id": "77ace9f7-b10a-483b-82ab-d439d3c985c1",
+          "name": "🧔 New Player",
+          "type": "Macro",
+          "command": true,
+          "macroId": "1e039406-3e04-40d7-b721-588702ec3b5b"
+        },
+        {
+          "id": "800a7f26-e716-43a8-b260-8a7d849b4168",
+          "name": "🤖 New Character",
+          "type": "Macro",
+          "command": true,
+          "macroId": "4e57bc75-2f16-4ae5-a87b-bf8b14b86dbe"
+        },
+        {
+          "id": "e90adb69-7981-4ccc-b705-258b2f6901fd",
+          "name": "🚩 New Faction",
+          "type": "Macro",
+          "command": true,
+          "macroId": "9aa46aca-47a7-43e5-93a9-2667ab59f8a0"
+        },
+        {
+          "id": "c6e203d7-42d8-4d25-b7af-3263178925c9",
+          "name": "🐉 New Race",
+          "type": "Macro",
+          "command": true,
+          "macroId": "4788f69a-8d9a-4a51-a1a0-aa93818da5ce"
+        }
+      ],
+      "collapsed": false
+    },
+    {
+      "id": "dc22500f-efa0-4eb8-93cd-32210eab1c18",
+      "name": "📦 Items Menu",
+      "type": "Multi",
+      "command": true,
+      "choices": [
+        {
+          "id": "5a324b97-ec81-49cc-ba53-6d19a9d7a651",
+          "name": "🔮 New Spell",
+          "type": "Macro",
+          "command": true,
+          "macroId": "48dd6b0b-2bf8-4425-b037-ff7523e0f2d0"
+        },
+        {
+          "id": "c4739383-13a7-415d-8d68-3a55df9a40ec",
+          "name": "⚔️ New Weapon",
+          "type": "Macro",
+          "command": true,
+          "macroId": "186fe605-cf9d-4681-b777-0e9f62684a5b"
+        },
+        {
+          "id": "6f29b26e-997e-42d4-9322-06a0261ec6c6",
+          "name": "🥫 New Consumable",
+          "type": "Macro",
+          "command": true,
+          "macroId": "2b7ab8bf-4b86-4353-9520-fe6526cd0f4b"
+        }
+      ]
+    },
+    {
+      "id": "b2fe14bf-57f2-4edb-9295-b3fa7d83a6a0",
+      "name": "🛠️ Utility Macros",
+      "type": "Multi",
+      "command": false,
+      "choices": [
+        {
+          "id": "7ae8e8fa-8360-4ca0-a61f-fa494c2d3527",
+          "name": "⤵️ Lint, Fields Options",
+          "type": "Macro",
+          "command": false,
+          "macroId": "3746df86-0de7-4f35-8244-ff82e9eb583a"
+        }
+      ],
+      "collapsed": false
+    }
+  ],
+  "macros": [
+    {
+      "name": "test macro",
+      "id": "72e20140-c018-469a-9572-84e9bc108152",
+      "commands": [],
+      "runOnStartup": false
+    },
+    {
+      "name": "Session",
+      "id": "58f75abf-a8eb-4ec4-91f2-3f92b0301e06",
+      "commands": [
+        {
+          "name": "New Session",
+          "type": "NestedChoice",
+          "id": "64cd4a77-4864-45ca-b8d4-88fbc5528d87",
+          "choice": {
+            "id": "1e77b84f-738c-49f6-b5db-c6c1649c4a66",
+            "name": "New Session",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Backend/Templates/Session.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "New Session"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "Sessions"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": true,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "source",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": false
+          }
+        },
+        {
+          "name": "⤵️ Lint, Fields Options",
+          "type": "Choice",
+          "id": "8ba869fa-0d3d-4a79-a035-9286574551d4",
+          "choiceId": "7ae8e8fa-8360-4ca0-a61f-fa494c2d3527"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Character",
+      "id": "4e57bc75-2f16-4ae5-a87b-bf8b14b86dbe",
+      "commands": [
+        {
+          "name": "New Character",
+          "type": "NestedChoice",
+          "id": "a147ce4d-56c3-46ff-a819-528900c2630f",
+          "choice": {
+            "id": "d73d7ac6-cb30-4151-aad2-efad3989f088",
+            "name": "New Character",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Backend/Templates/Character.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "New Character"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "source",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": true
+          }
+        },
+        {
+          "name": "⤵️ Lint, Fields Options",
+          "type": "Choice",
+          "id": "0471637a-aed1-4694-bda6-c4da1381bd20",
+          "choiceId": "7ae8e8fa-8360-4ca0-a61f-fa494c2d3527"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Region",
+      "id": "6e9322fb-1ac5-4213-a18b-b98f7cf38b17",
+      "commands": [
+        {
+          "name": "New Region",
+          "type": "NestedChoice",
+          "id": "ea6e46d9-6368-46bf-81ab-05dda624d64f",
+          "choice": {
+            "id": "d8a678d2-f300-4e1f-8d80-750f0305b324",
+            "name": "New Region",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Backend/Templates/Region.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "New Region"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "Worlds"
+              ],
+              "chooseWhenCreatingNote": true,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": true
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "source",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": true
+          }
+        },
+        {
+          "name": "⤵️ Lint, Fields Options",
+          "type": "Choice",
+          "id": "087e529f-d689-44fd-98ff-385f3dd1619a",
+          "choiceId": "7ae8e8fa-8360-4ca0-a61f-fa494c2d3527"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Settlement",
+      "id": "10f46ce6-f36a-4b49-8b44-cd84adb2a8de",
+      "commands": [
+        {
+          "name": "New Settlement",
+          "type": "NestedChoice",
+          "id": "b9014302-d556-4754-8f1a-570e4ac77e06",
+          "choice": {
+            "id": "c3802dd0-895e-46c4-ab6f-19505cefde03",
+            "name": "New Settlement",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Backend/Templates/Settlement.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "New Settlement"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [],
+              "chooseWhenCreatingNote": true,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": true
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "source",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": true
+          }
+        },
+        {
+          "name": "⤵️ Lint, Fields Options",
+          "type": "Choice",
+          "id": "b2267a12-25be-4c5c-87d9-43fe7903f3bb",
+          "choiceId": "7ae8e8fa-8360-4ca0-a61f-fa494c2d3527"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Faction",
+      "id": "9aa46aca-47a7-43e5-93a9-2667ab59f8a0",
+      "commands": [
+        {
+          "name": "New Faction",
+          "type": "NestedChoice",
+          "id": "59320ed7-323a-4584-8b9b-160df34725b5",
+          "choice": {
+            "id": "c355bd37-bbb6-4e71-9866-62caa69170f2",
+            "name": "New Faction",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Backend/Templates/Faction.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "New Faction"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "Factions"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "source",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": true
+          }
+        },
+        {
+          "name": "⤵️ Lint, Fields Options",
+          "type": "Choice",
+          "id": "effc7bee-fe7d-438b-99fd-a3dfb2969a1e",
+          "choiceId": "7ae8e8fa-8360-4ca0-a61f-fa494c2d3527"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Bulk Insert, Lint, Fields Options",
+      "id": "3746df86-0de7-4f35-8244-ff82e9eb583a",
+      "commands": [
+        {
+          "name": "Linter: Lint the current file",
+          "type": "Obsidian",
+          "id": "04ba996d-6708-4068-80df-a2d0e6a2537b",
+          "commandId": "obsidian-linter:lint-file"
+        },
+        {
+          "name": "Metadata Menu: Open this note's fields modal",
+          "type": "Obsidian",
+          "id": "f1e60e44-259d-47c8-9949-d36d2dcdba17",
+          "commandId": "metadata-menu:open_fields_modal"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Race",
+      "id": "4788f69a-8d9a-4a51-a1a0-aa93818da5ce",
+      "commands": [
+        {
+          "name": "New Race",
+          "type": "NestedChoice",
+          "id": "d13ffe72-e661-465e-856d-da8784a7d7f8",
+          "choice": {
+            "id": "5e69b694-f43f-46b6-964b-bd2c650b6906",
+            "name": "New Race",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Backend/Templates/Race.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "New Race"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "Races"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "source",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": true
+          }
+        },
+        {
+          "name": "⤵️ Lint, Fields Options",
+          "type": "Choice",
+          "id": "3570fa70-627c-448e-af27-b4ffe7fab96e",
+          "choiceId": "7ae8e8fa-8360-4ca0-a61f-fa494c2d3527"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "World",
+      "id": "cfa0fdd2-8a12-4351-8fa0-f4e42da0960c",
+      "commands": [
+        {
+          "name": "Untitled Template Choice",
+          "type": "NestedChoice",
+          "id": "722abe68-3dd9-4153-a135-0f5e5bc87c00",
+          "choice": {
+            "id": "423d6322-d5a8-4aec-942a-15dafc909335",
+            "name": "Untitled Template Choice",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Backend/Templates/World.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "New World"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "Worlds"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "source",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": false
+          }
+        },
+        {
+          "name": "⤵️ Lint, Fields Options",
+          "type": "Choice",
+          "id": "a877c3ff-4120-4545-a169-9d7ab8aed154",
+          "choiceId": "7ae8e8fa-8360-4ca0-a61f-fa494c2d3527"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Player",
+      "id": "1e039406-3e04-40d7-b721-588702ec3b5b",
+      "commands": [
+        {
+          "name": "New Player",
+          "type": "NestedChoice",
+          "id": "aa9df2ec-59a8-4c91-b92c-934cee0eff6d",
+          "choice": {
+            "id": "0e071dc7-edf9-49e0-8310-b7435fe6270d",
+            "name": "New Player",
+            "type": "Template",
+            "command": false,
+            "templatePath": "",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "New Player"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "Players"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "source",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": true
+          }
+        },
+        {
+          "name": "⤵️ Lint, Fields Options",
+          "type": "Choice",
+          "id": "f07c921f-ac45-47e3-a17a-2918c6662b58",
+          "choiceId": "7ae8e8fa-8360-4ca0-a61f-fa494c2d3527"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Quest",
+      "id": "a1401030-3db7-4164-8d4b-2987636c3c77",
+      "commands": [
+        {
+          "name": "New Quest",
+          "type": "NestedChoice",
+          "id": "aa54e729-633c-48a0-80c7-a314b8e46219",
+          "choice": {
+            "id": "58b449e1-19d9-4246-bd25-8802968373e3",
+            "name": "New Quest",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Backend/Templates/Quest.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "New Quest"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "Quests"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "source",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": true
+          }
+        },
+        {
+          "name": "⤵️ Lint, Fields Options",
+          "type": "Choice",
+          "id": "f5ee079c-763e-4f1c-83ea-93f4942ad9f5",
+          "choiceId": "7ae8e8fa-8360-4ca0-a61f-fa494c2d3527"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Weapon",
+      "id": "186fe605-cf9d-4681-b777-0e9f62684a5b",
+      "commands": [
+        {
+          "name": "New Weapon",
+          "type": "NestedChoice",
+          "id": "b14143b8-f5ea-4b71-98c1-6fe523a9f42f",
+          "choice": {
+            "id": "8d8da74b-c9ad-4edf-8229-b96aba741751",
+            "name": "New Weapon",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Backend/Templates/Weapon.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "New Weapon"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "Items/Weapons"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "source",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": true
+          }
+        },
+        {
+          "name": "⤵️ Lint, Fields Options",
+          "type": "Choice",
+          "id": "485f78f3-fb6d-47fb-9bfe-c9ed901c12cf",
+          "choiceId": "7ae8e8fa-8360-4ca0-a61f-fa494c2d3527"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Spell",
+      "id": "48dd6b0b-2bf8-4425-b037-ff7523e0f2d0",
+      "commands": [
+        {
+          "name": "New Spell",
+          "type": "NestedChoice",
+          "id": "58d9d916-2338-4fbd-8f40-9aaee1548374",
+          "choice": {
+            "id": "ddd7db07-1406-4d3c-9c55-512b6a87d097",
+            "name": "New Spell",
+            "type": "Template",
+            "command": false,
+            "templatePath": "",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "New Spell"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "Spells"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "source",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": true
+          }
+        },
+        {
+          "name": "⤵️ Lint, Fields Options",
+          "type": "Choice",
+          "id": "0e31891a-bd53-41f1-83ae-51bbd9fe761f",
+          "choiceId": "7ae8e8fa-8360-4ca0-a61f-fa494c2d3527"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Consumable",
+      "id": "2b7ab8bf-4b86-4353-9520-fe6526cd0f4b",
+      "commands": [
+        {
+          "name": "New Consumable",
+          "type": "NestedChoice",
+          "id": "21000e2a-8520-4eeb-915b-672fdf8a6806",
+          "choice": {
+            "id": "5050ad8f-88e7-4324-9c6c-c8db71ee8b96",
+            "name": "New Consumable",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Backend/Templates/Consumable.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "New Consumable"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "Items/Consumables"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "source",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": true
+          }
+        },
+        {
+          "name": "⤵️ Lint, Fields Options",
+          "type": "Choice",
+          "id": "4af3a7d8-577b-472b-bfd6-9da411c280c6",
+          "choiceId": "7ae8e8fa-8360-4ca0-a61f-fa494c2d3527"
+        }
+      ],
+      "runOnStartup": false
+    }
+  ],
+  "inputPrompt": "multi-line",
+  "devMode": false,
+  "templateFolderPath": "Backend/Templates",
+  "announceUpdates": true,
+  "version": "1.3.0",
+  "disableOnlineFeatures": true,
+  "ai": {
+    "OpenAIApiKey": "",
+    "defaultModel": "Ask me",
+    "defaultSystemPrompt": "As an AI assistant within Obsidian, your primary goal is to help users manage their ideas and knowledge more effectively. Format your responses using Markdown syntax. Please use the [[Obsidian]] link format. You can write aliases for the links by writing [[Obsidian|the alias after the pipe symbol]]. To use mathematical notation, use LaTeX syntax. LaTeX syntax for larger equations should be on separate lines, surrounded with double dollar signs ($$). You can also inline math expressions by wrapping it in $ symbols. For example, use $$w_{ij}^{\text{new}}:=w_{ij}^{\text{current}}+etacdotdelta_jcdot x_{ij}$$ on a separate line, but you can write \"($eta$ = learning rate, $delta_j$ = error term, $x_{ij}$ = input)\" inline.",
+    "promptTemplatesFolderPath": "",
+    "showAssistant": true
+  },
+  "migrations": {
+    "migrateToMacroIDFromEmbeddedMacro": true,
+    "useQuickAddTemplateFolder": true,
+    "incrementFileNameSettingMoveToDefaultBehavior": true,
+    "mutualExclusionInsertAfterAndWriteToBottomOfFile": true,
+    "setVersionAfterUpdateModalRelease": true
+  }
+}

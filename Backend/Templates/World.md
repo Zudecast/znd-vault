@@ -1,0 +1,97 @@
+---
+Type: World
+Regions: 
+Description: 
+Map: 
+---
+
+# Overview
+
+`INPUT[text_area:Description]`
+
+```leaflet
+id: world
+image: [[]]
+markerFolder: Worlds/
+recenter: true
+height: 480px
+bounds:
+    - [-240, -480]
+    - [240, 480]
+coordinates [0, 0]
+defaultZoom: 0
+minZoom: 0
+maxZoom: 2
+zoomDelta: 0.5
+```
+
+---
+
+# Sessions
+
+`button-new-session`
+
+```dataviewjs
+const {fieldModifier: f} = this.app.plugins.plugins["metadata-menu"].api;
+
+dv.table(["Sessions ", "Date"],
+	await Promise.all(dv.pages()
+	.where(p => !p.file.path.includes("Backend"))
+	.where(p => p.Type == "Session")
+	.where(p => p.World == dv.current().file.link.toString())
+	.sort(p => p.file.ctime, "desc")
+	.map(async p => [
+		p.file.link, 
+		p.file.cday
+		])
+	)
+)
+```
+
+---
+
+# Geography
+
+`button-new-region`
+
+```dataviewjs
+const {fieldModifier: f} = this.app.plugins.plugins["metadata-menu"].api;
+
+dv.table(["Regions "],
+	await Promise.all(dv.pages()
+	.where(p => !p.file.path.includes("Backend"))
+	.where(p => p.Type == "Region")
+	.where(p => p.World == dv.current().file.link.toString())
+	.sort(p => p.file.name, "asc")
+	.map(async p => [
+		p.file.link
+		])
+	)
+)
+```
+
+---
+
+# Global
+
+`button-new-faction`
+
+```dataviewjs
+const {fieldModifier: f} = this.app.plugins.plugins["metadata-menu"].api;
+
+dv.table(["Factions ", "Leader", "Region"],
+	await Promise.all(dv.pages()
+	.where(p => !p.file.path.includes("Backend"))
+	.where(p => p.Type == "Faction")
+	.where(p => p.World == dv.current().file.link.toString())
+	.sort(p => p.file.name, "asc")
+	.map(async p => [
+		p.file.link,
+		await f(dv,p, "Leader"),
+		await f(dv,p, "Region")
+		])
+	)
+)
+```
+
+---

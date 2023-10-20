@@ -1,0 +1,39 @@
+{
+  "presetFields": [
+    {
+      "name": "Type",
+      "options": {
+        "valuesList": {},
+        "sourceType": "ValuesFromDVQuery",
+        "valuesListNotePath": "",
+        "valuesFromDVQuery": "dv.pages('\"Backend/Classes\"').file.name"
+      },
+      "id": "1",
+      "type": "Select",
+      "command": {
+        "id": "insert__presetField__Type",
+        "icon": "box",
+        "label": "Insert Type field"
+      }
+    }
+  ],
+  "fileClassQueries": [],
+  "displayFieldsInContextMenu": true,
+  "globallyIgnoredFields": [],
+  "classFilesPath": "Backend/Classes/",
+  "isAutosuggestEnabled": true,
+  "fileClassAlias": "Type",
+  "settingsVersion": 3,
+  "globalFileClass": "",
+  "firstDayOfWeek": 1,
+  "enableLinks": false,
+  "enableTabHeader": true,
+  "enableEditor": false,
+  "enableBacklinks": false,
+  "enableStarred": true,
+  "enableFileExplorer": true,
+  "enableSearch": true,
+  "buttonIcon": "clipboard-list",
+  "tableViewMaxRecords": 100,
+  "frontmatterListDisplay": "asArray"
+}

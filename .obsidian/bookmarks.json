@@ -1,0 +1,45 @@
+{
+  "items": [
+    {
+      "type": "folder",
+      "ctime": 1693616489078,
+      "path": "Worlds"
+    },
+    {
+      "type": "folder",
+      "ctime": 1693629093594,
+      "path": "Worlds/Cointeau/Regions"
+    },
+    {
+      "type": "folder",
+      "ctime": 1693629099554,
+      "path": "Worlds/Cointeau/The Land of Jim/Locations"
+    },
+    {
+      "type": "folder",
+      "ctime": 1693774952856,
+      "path": "Factions"
+    },
+    {
+      "type": "folder",
+      "ctime": 1693616474208,
+      "path": "Characters",
+      "title": "Characters"
+    },
+    {
+      "type": "folder",
+      "ctime": 1693616484718,
+      "path": "Items"
+    },
+    {
+      "type": "folder",
+      "ctime": 1693616496276,
+      "path": "Spells"
+    },
+    {
+      "type": "folder",
+      "ctime": 1693616505251,
+      "path": "Players"
+    }
+  ]
+}

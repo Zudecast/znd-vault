@@ -1,0 +1,125 @@
+{
+  "workspaces": {
+    "Default": {
+      "main": {
+        "id": "73053db65dc5e3d0",
+        "type": "split",
+        "children": [
+          {
+            "id": "fca6f80537f1c3e3",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "e55c534b559ac6e4",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Worlds/Cointeau/Cointeau.md",
+                    "mode": "preview",
+                    "source": false
+                  },
+                  "pinned": true
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "16247e01989644a5",
+        "type": "split",
+        "children": [
+          {
+            "id": "22b64790b8845c00",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "4baf9869cff1aab6",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "6276efc7ef13130e",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {}
+                }
+              },
+              {
+                "id": "9ef4d4d57e3b9021",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 292.5,
+        "collapsed": true
+      },
+      "right": {
+        "id": "b260ae45e20a29f3",
+        "type": "split",
+        "children": [
+          {
+            "id": "c22533b728f4fd8f",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "f52bbd72ccab67c8",
+                "type": "leaf",
+                "state": {
+                  "type": "file-properties",
+                  "state": {
+                    "file": "Worlds/Cointeau/Cointeau.md"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 331.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "cmdr:QuickAdd": false,
+          "homepage:Open homepage": false,
+          "obsidian-5e-statblocks:Open Creature Pane": false,
+          "initiative-tracker:Initiative Tracker Encounter Builder": false,
+          "graph:Open graph view": true,
+          "canvas:Create new canvas": true,
+          "command-palette:Open command palette": true,
+          "omnisearch:Omnisearch": true,
+          "table-editor-obsidian:Advanced Tables Toolbar": true,
+          "obsidian-map-view:Open map view": true,
+          "switcher:Open quick switcher": true,
+          "obsidian-leaflet-plugin:Open Leaflet Map": false,
+          "workspaces:Manage workspace layouts": false
+        }
+      },
+      "active": "e55c534b559ac6e4"
+    }
+  },
+  "active": "Default"
+}

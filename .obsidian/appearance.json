@@ -1,0 +1,11 @@
+{
+  "accentColor": "#c27100",
+  "baseFontSize": 17,
+  "showViewHeader": false,
+  "cssTheme": "Material Gruvbox",
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "supercharged-links-gen",
+    "Embeds"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "Backend/Templates",
+  "templates_pairs": [
+    [
+      "",
+      ""
+    ]
+  ],
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": false,
+  "enable_system_commands": false,
+  "shell_path": "",
+  "user_scripts_folder": "",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "Worlds",
+      "template": "Backend/Templates/World.md"
+    },
+    {
+      "folder": "Players",
+      "template": "Backend/Templates/Player.md"
+    },
+    {
+      "folder": "Characters",
+      "template": "Backend/Templates/Character.md"
+    },
+    {
+      "folder": "Factions",
+      "template": "Backend/Templates/Faction.md"
+    },
+    {
+      "folder": "Races",
+      "template": "Backend/Templates/Race.md"
+    },
+    {
+      "folder": "Sessions",
+      "template": "Backend/Templates/Session.md"
+    },
+    {
+      "folder": "Quests",
+      "template": "Backend/Templates/Quest.md"
+    },
+    {
+      "folder": "Items/Weapons",
+      "template": "Backend/Templates/Weapon.md"
+    },
+    {
+      "folder": "Items/Consumables",
+      "template": "Backend/Templates/Consumable.md"
+    }
+  ],
+  "syntax_highlighting": true,
+  "enabled_templates_hotkeys": [
+    ""
+  ],
+  "startup_templates": [
+    ""
+  ],
+  "enable_ribbon_icon": false
+}

@@ -1,0 +1,125 @@
+{
+  "targetAttributes": [
+    "Type",
+    "Rarity"
+  ],
+  "targetTags": true,
+  "getFromInlineField": true,
+  "enableTabHeader": true,
+  "activateSnippet": true,
+  "enableEditor": true,
+  "enableFileList": true,
+  "enableBacklinks": true,
+  "enableQuickSwitcher": true,
+  "enableSuggestor": true,
+  "selectors": [
+    {
+      "type": "attribute",
+      "name": "Type",
+      "value": "Player",
+      "matchCaseSensitive": true,
+      "match": "exact",
+      "uid": "08c2-b618",
+      "selectText": true,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": true
+    },
+    {
+      "type": "attribute",
+      "name": "Type",
+      "value": "Quest",
+      "matchCaseSensitive": true,
+      "match": "exact",
+      "uid": "a45d-02ac",
+      "selectText": true,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": true
+    },
+    {
+      "type": "attribute",
+      "name": "Rarity",
+      "value": "Common",
+      "matchCaseSensitive": true,
+      "match": "exact",
+      "uid": "1ed1-2992",
+      "selectText": true,
+      "selectAppend": false,
+      "selectPrepend": false,
+      "selectBackground": false
+    },
+    {
+      "type": "attribute",
+      "name": "Rarity",
+      "value": "Uncommon",
+      "matchCaseSensitive": true,
+      "match": "exact",
+      "uid": "5966-9cab",
+      "selectText": true,
+      "selectAppend": false,
+      "selectPrepend": false,
+      "selectBackground": false
+    },
+    {
+      "type": "attribute",
+      "name": "Rarity",
+      "value": "Rare",
+      "matchCaseSensitive": true,
+      "match": "exact",
+      "uid": "3a82-31ef",
+      "selectText": true,
+      "selectAppend": false,
+      "selectPrepend": false,
+      "selectBackground": false
+    },
+    {
+      "type": "attribute",
+      "name": "Rarity",
+      "value": "Exotic",
+      "matchCaseSensitive": true,
+      "match": "exact",
+      "uid": "839d-196c",
+      "selectText": true,
+      "selectAppend": false,
+      "selectPrepend": false,
+      "selectBackground": false
+    },
+    {
+      "type": "attribute",
+      "name": "Rarity",
+      "value": "Legendary",
+      "matchCaseSensitive": true,
+      "match": "exact",
+      "uid": "2a50-91d3",
+      "selectText": true,
+      "selectAppend": false,
+      "selectPrepend": false,
+      "selectBackground": false
+    },
+    {
+      "type": "attribute",
+      "name": "Type",
+      "value": "Weapon",
+      "matchCaseSensitive": true,
+      "match": "exact",
+      "uid": "1cfb-0323",
+      "selectText": false,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": true
+    },
+    {
+      "type": "attribute",
+      "name": "Type",
+      "value": "Consumable",
+      "matchCaseSensitive": true,
+      "match": "exact",
+      "uid": "b0a5-710a",
+      "selectText": false,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": true
+    }
+  ]
+}

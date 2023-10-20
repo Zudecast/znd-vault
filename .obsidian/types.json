@@ -1,0 +1,14 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "World": "text",
+    "Region": "text",
+    "location": "multitext",
+    "Regions": "text",
+    "Players": "multitext",
+    "Created": "date",
+    "Modified": "date"
+  }
+}

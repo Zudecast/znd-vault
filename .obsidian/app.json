@@ -1,0 +1,14 @@
+{
+  "promptDelete": false,
+  "livePreview": false,
+  "alwaysUpdateLinks": true,
+  "propertiesInDocument": "hidden",
+  "readableLineLength": true,
+  "showInlineTitle": true,
+  "defaultViewMode": "preview",
+  "userIgnoreFilters": [
+    "Backend/"
+  ],
+  "showUnsupportedFiles": true,
+  "strictLineBreaks": false
+}

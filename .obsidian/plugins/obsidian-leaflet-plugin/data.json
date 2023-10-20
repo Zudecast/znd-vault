@@ -1,0 +1,219 @@
+{
+  "mapMarkers": [
+    {
+      "id": "cointeau",
+      "locked": false,
+      "lastAccessed": 1696017445281,
+      "markers": [
+        {
+          "id": "ID_cb396abaeaa8",
+          "type": "default",
+          "loc": [
+            -238,
+            256
+          ],
+          "link": "Western Continent",
+          "layer": "%5B%5BCointeau.jpeg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.26666666666666666,
+            0.49583333333333335
+          ],
+          "description": null,
+          "minZoom": 2,
+          "maxZoom": 1.5,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_9ac99a0a3af9",
+          "type": "default",
+          "loc": [
+            -257,
+            289
+          ],
+          "layer": "%5B%5BCointeau.jpeg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": 2,
+          "maxZoom": 0.5,
+          "tooltip": "hover"
+        }
+      ],
+      "overlays": [],
+      "shapes": [],
+      "files": [
+        "Worlds/Cointeau/Cointeau.md",
+        "Maps/Cointeau Map.md"
+      ]
+    }
+  ],
+  "defaultMarker": {
+    "type": "default",
+    "iconName": "location-pin",
+    "color": "#ff0000",
+    "transform": {
+      "size": 6,
+      "x": 0,
+      "y": -2
+    },
+    "isImage": false
+  },
+  "markerIcons": [
+    {
+      "type": "Weapon",
+      "iconName": "atom",
+      "color": "#ff1f1f",
+      "alpha": 1,
+      "layer": false,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [
+        "Weapon"
+      ],
+      "minZoom": 1,
+      "maxZoom": 2
+    },
+    {
+      "type": "Spell",
+      "iconName": "hand-sparkles",
+      "color": "#00bfff",
+      "alpha": 1,
+      "layer": false,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [
+        "Spell"
+      ],
+      "minZoom": 1,
+      "maxZoom": 2
+    },
+    {
+      "type": "Armor",
+      "iconName": "shield-alt",
+      "color": "#ffff00",
+      "alpha": 1,
+      "layer": false,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [
+        "Armor"
+      ],
+      "minZoom": 1,
+      "maxZoom": 2
+    },
+    {
+      "type": "Settlement",
+      "iconName": "landmark",
+      "color": "#ffffff",
+      "alpha": 1,
+      "layer": false,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [
+        "Settlement"
+      ],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "Consumable",
+      "iconName": "utensils",
+      "color": "#0ed100",
+      "alpha": 1,
+      "layer": false,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [
+        "Consumable"
+      ],
+      "minZoom": 1,
+      "maxZoom": 2
+    }
+  ],
+  "color": "#dddddd",
+  "lat": 0,
+  "long": 0,
+  "notePreview": true,
+  "layerMarkers": false,
+  "previousVersion": "5.7.3",
+  "version": {
+    "major": 5,
+    "minor": 7,
+    "patch": 3
+  },
+  "warnedAboutMapMarker": false,
+  "copyOnClick": true,
+  "displayMarkerTooltips": "hover",
+  "displayOverlayTooltips": false,
+  "configDirectory": null,
+  "mapViewEnabled": true,
+  "mapViewParameters": {
+    "darkMode": true,
+    "defaultZoom": 8,
+    "distanceMultiplier": 1,
+    "drawColor": "#3388ff",
+    "geojson": [],
+    "geojsonColor": "#3388ff",
+    "gpx": [],
+    "gpxColor": "#3388ff",
+    "height": "480px",
+    "image": "[[Cointeau.jpeg]]",
+    "imageOverlay": [],
+    "isMapView": false,
+    "layers": [
+      "[[Cointeau.jpeg]]"
+    ],
+    "linksFrom": [],
+    "linksTo": [],
+    "marker": [],
+    "commandMarker": [],
+    "markerFile": [],
+    "markerFolder": [],
+    "markerTag": [],
+    "maxZoom": 10,
+    "minZoom": 1,
+    "osmLayer": true,
+    "overlay": [],
+    "overlayColor": "blue",
+    "scale": 1,
+    "showAllMarkers": false,
+    "tileServer": [],
+    "verbose": false,
+    "zoomDelta": 1,
+    "zoomFeatures": false,
+    "id": "world-a-map",
+    "lat": 50,
+    "long": 50,
+    "unit": "meters",
+    "filterTag": []
+  },
+  "enableDraw": false,
+  "defaultUnitType": "imperial",
+  "defaultTile": "https://stamen-tiles.a.ssl.fastly.net/terrain/{z}/{x}/{y}.png",
+  "defaultTileDark": "https://stamen-tiles.a.ssl.fastly.net/terrain/{z}/{x}/{y}.png",
+  "defaultAttribution": "Map tiles by <a href=\"http://stamen.com\">Stamen Design</a>, under <a href=\"http://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>. Data by <a href=\"http://openstreetmap.org\">OpenStreetMap</a>, under <a href=\"http://www.openstreetmap.org/copyright\">ODbL</a>.",
+  "defaultTileSubdomains": "a,b,c"
+}
